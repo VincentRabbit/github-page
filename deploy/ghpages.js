@@ -4,8 +4,8 @@ const path = require('path');
 const ghpages = require('gh-pages');
 
 const options = {
-  branch: 'gh-pages',
-  repo: 'https://github.com/VincentRabbit/github-page.git', // project github repo
+  branch: 'master',
+  repo: 'https://github.com/VincentRabbit/vincentrabbit.github.io.git', // project github repo
 };
 
 const callback = (err) => {
